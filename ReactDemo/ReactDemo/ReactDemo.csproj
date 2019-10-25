@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TypeScriptToolsVersion>3.6</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="index.tsx" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <TypeScriptCompile Include="clientapp\index.tsx" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "clientapp/generated",
+    "module": "commonjs",
+    "rootDir": "clientapp",
+    "jsx": "react",
+    "sourceMap": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "target": "es2017",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

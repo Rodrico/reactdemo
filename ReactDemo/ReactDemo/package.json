@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.0",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/signalr": "^2.2.35",
+    "babylonjs": "^4.0.3",
+    "bootstrap": "^4.3.1",
+    "react": "16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-circular-progressbar": "^2.0.2",
+    "react-collapse": "^4.0.3",
+    "react-dom": "16.8.6",
+    "react-motion": "^0.5.2",
+    "react-numeric-input": "^2.2.3",
+    "react-tabs": "^3.0.0"
+  }
+}
